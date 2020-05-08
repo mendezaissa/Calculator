@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Calculator </title>
+
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	<script src="Calculator.js"></script>
+</head>
+<body>
+
+	<h1>CALCULATOR</h1>
+
+	<input type="text" id="numbers">
+
+<div id="block">
+	
+		<div id="row1">
+	  		<button onclick="clearButton()" id="clear">C</button><button id="<"> < </button><button onclick="division(document.getElementById('numbers').value)" id="division">/</button><button onclick="multiplication(document.getElementById('numbers').value)" id="multiplication">X</button>
+	  	</div>
+
+	  	<div id="row2">
+	  		<button onclick="sevenButton(7)" id="7">7</button><button onclick="eightButton(8)" id="8">8</button><button onclick="nineButton(9)" id="9">9</button><button onclick="subtraction(document.getElementById('numbers').value)" id="-">-</button>
+	  	</div>
+
+	  	<div id="row3">
+	  		<button onclick="fourButton(4)" id="4">4</button><button onclick="fiveButton(5)" id="5">5</button><button onclick="sixButton(6)" id="6">6</button><button onclick="addition(document.getElementById('numbers').value)" id="+">+</button>
+	  	</div>
+	
+	
+	
+	  	<div id="row4">
+	  		<button onclick="oneButton(1)" id="1">1</button><button onclick="twoButton(2)" id="2">2</button><button onclick="threeButton(3)" id="3">3</button><button id="equal">=</button>
+	  	</div>
+	 
+
+	  	<div id="row5">
+	  		<button onclick="zeroButton(0)" id="zero">0</button><button onclick="decimalButton('.')" id="decimal">.</button>
+	  	</div>
+	
+
+</div>
+
+</body>
+</html>

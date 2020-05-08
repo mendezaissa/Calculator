@@ -1,0 +1,50 @@
+body
+{
+	background-color: #FF3333;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#numbers
+{
+	position: relative;
+	left: 650px;
+	height: 25px;
+	width: 230px;
+}
+
+#block
+{
+	position: relative;
+	left: 650px;
+}
+
+div > button {
+	background-color: black;
+	border-color: black;
+	color: white;
+	cursor: pointer;
+	width: 50px;
+	margin: 4px;
+	opacity: 0.7;
+}
+
+
+#zero {
+	width: 108px;
+	position: absolute;
+}
+
+#equal {
+	height: 51px;
+	position: absolute;
+}
+
+#decimal {
+	position: absolute;
+	left: 116px;
+}
+
